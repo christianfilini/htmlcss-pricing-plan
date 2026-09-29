@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+main {
+    display: flex;
+}
+
+.box {
+    border: solid 2px;
+    width: 500px;
+    background-color: rgb(197, 18, 18);
+    border-color: black;
+    gap: 10px;
+    border-radius: 10px;
+}
