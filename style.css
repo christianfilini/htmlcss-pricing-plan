@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+html {
+    background-color: rgb(221, 213, 202);
+}
+
 header {
     margin: 0 auto;
     margin-bottom: 50px;
@@ -32,18 +36,66 @@ main {
     padding: 0 24px;
     gap: 10px;
     margin: 0 auto;
+
+
     /* per centrare la pagina IMPORTANTE */
 }
 
 .card {
     border: solid 2px;
     width: calc(100% - 20px / 3);
-    background-color: rgb(159, 86, 255);
+    background-color: rgb(248, 248, 248);
     border-color: black;
     border-radius: 10px;
-    ;
+    padding: 40px;
 }
 
+.prize {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#psize {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.space {
+    padding: 25px;
+}
+
+.plan {
+    background-color: rgb(177, 172, 172);
+    border-radius: 10px;
+    padding: 18px;
+    font-weight: bold;
+    background-color: rgb(250, 169, 20);
+
+}
+
+#bianco {
+    background-color: white;
+}
+
+
+.bgrey {
+    background-color: rgb(177, 172, 172);
+    border-radius: 4px;
+    padding: 3px;
+}
+
+
+.card.viola {
+    background-color: rgb(250, 169, 20);
+}
+
+
+.footercard {
+    padding: 8px;
+}
+
+/* questi sono i css per lo Switcht */
 /* The switch - the box around the slider */
 .switch {
     position: relative;
